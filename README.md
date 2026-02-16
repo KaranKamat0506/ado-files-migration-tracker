@@ -1,4 +1,4 @@
-\# Azure DevOps Release Scripts Viewer
+# Azure DevOps Release Scripts Viewer
 
 
 
@@ -6,23 +6,23 @@ A Streamlit web application that lists and manages database migration scripts fr
 
 
 
-\## Features
+## Features
 
 
 
-\- 🔍 \*\*Filter by Release\*\*: Select a release version and folder to view matching scripts
+- 🔍 \*\*Filter by Release\*\*: Select a release version and folder to view matching scripts
 
-\- 📊 \*\*Commit History\*\*: See who added each script and when
+- 📊 \*\*Commit History\*\*: See who added each script and when
 
-\- 📥 \*\*Excel Export\*\*: Download filtered results as formatted Excel files
+- 📥 \*\*Excel Export\*\*: Download filtered results as formatted Excel files
 
-\- 🔗 \*\*Direct Links\*\*: Click file names to open them directly in Azure DevOps
+- 🔗 \*\*Direct Links\*\*: Click file names to open them directly in Azure DevOps
 
-\- 🎨 \*\*Modern UI\*\*: Clean, responsive interface with custom styling
+- 🎨 \*\*Modern UI\*\*: Clean, responsive interface with custom styling
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -66,11 +66,11 @@ ado-db-files/
 
 
 
-\## Setup
+## Setup
 
 
 
-\### 1. Clone the repository
+### 1. Clone the repository
 
 
 
@@ -84,7 +84,7 @@ cd ado-db-files
 
 
 
-\### 2. Install dependencies
+### 2. Install dependencies
 
 
 
@@ -96,7 +96,7 @@ pip install -r requirements.txt
 
 
 
-\### 3. Configure environment variables
+### 3. Configure environment variables
 
 
 
@@ -136,7 +136,7 @@ ADO\_PAT=your-personal-access-token
 
 
 
-\### 4. Customize configuration
+### 4. Customize configuration
 
 
 
@@ -144,13 +144,13 @@ Edit `config.py` to match your repository structure:
 
 
 
-\- Update `RELEASES` list with your release versions
+- Update `RELEASES` list with your release versions
 
-\- Update `FOLDER\_MAP` with your folder paths
+- Update `FOLDER\_MAP` with your folder paths
 
 
 
-\## Run
+## Run
 
 
 
@@ -166,7 +166,7 @@ The app will be available at `http://localhost:8501`
 
 
 
-\## How It Works
+## How It Works
 
 
 
@@ -186,45 +186,45 @@ The app will be available at `http://localhost:8501`
 
 
 
-\## API Integration
+## API Integration
 
 
 
 The app uses Azure DevOps REST API:
 
-\- \*\*Git Items API\*\*: Lists files in repository folders
+- \*\*Git Items API\*\*: Lists files in repository folders
 
-\- \*\*Commits API\*\*: Retrieves commit history for each file
-
-
-
-\## Requirements
+- \*\*Commits API\*\*: Retrieves commit history for each file
 
 
 
-\- Python 3.8+
-
-\- Azure DevOps account with repository access
-
-\- Personal Access Token (PAT) with Code → Read permissions
+## Requirements
 
 
 
-\## Technologies Used
+- Python 3.8+
+
+- Azure DevOps account with repository access
+
+- Personal Access Token (PAT) with Code → Read permissions
 
 
 
-\- \*\*Streamlit\*\*: Web framework
-
-\- \*\*Requests\*\*: HTTP client for Azure DevOps API
-
-\- \*\*Pandas\*\*: Data manipulation for Excel export
-
-\- \*\*OpenPyXL\*\*: Excel file generation
+## Technologies Used
 
 
 
-\## License
+- \*\*Streamlit\*\*: Web framework
+
+- \*\*Requests\*\*: HTTP client for Azure DevOps API
+
+- \*\*Pandas\*\*: Data manipulation for Excel export
+
+- \*\*OpenPyXL\*\*: Excel file generation
+
+
+
+## License
 
 
 
@@ -232,7 +232,7 @@ This project is provided as-is for demonstration purposes.
 
 
 
-\## Contributing
+## Contributing
 
 
 
